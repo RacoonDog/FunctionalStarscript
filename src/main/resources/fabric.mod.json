@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "functional-starscript",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for the Meteor addons.",
+  "name": "Functional Starscript",
+  "description": "You wont need most of this.",
   "authors": [
-    "seasnail"
+    "Crosby"
   ],
   "contact": {
-    "repo": "https://github.com/RacoonDog/meteor-addon-template",
-    "sources": "https://github.com/RacoonDog/meteor-addon-template",
-    "issues": "https://github.com/RacoonDog/meteor-addon-template/issues"
+    "repo": "https://github.com/RacoonDog/FunctionalStarscript",
+    "sources": "https://github.com/RacoonDog/FunctionalStarscript",
+    "issues": "https://github.com/RacoonDog/FunctionalStarscript/issues"
   },
   "license": "MPL-2.0",
-  "icon": "assets/template/icon.png",
+  "icon": "assets/functional-starscript/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.AddonTemplate"
+      "io.github.racoondog.functionalstarscript.FunctionalStarscript"
     ]
   },
   "mixins": [
-    "addon-template.mixins.json"
+    "functional-starscript.mixins.json"
   ],
   "custom": {
     "meteor-client:color": "225,25,25",
